@@ -1,8 +1,9 @@
-# Landmark Recognition [2021]
+# Landmark Recognition
+An end-to-end application to predict landmarks from images, retrieve geolocation details, and visualize results on an interactive map.
 
-## Source
-- Trained model [`landmarks_classifier_asia_V1/1`](https://tfhub.dev/google/on_device_vision/classifier/landmarks_classifier_asia_V1/1) is taken from the Tensorflow-Hub
-- There are total `98961` classes supported, in which Asia's most of the famous Landmark is covered.
+## Model & Database Source
+- Leveraged a Pretrained TensorFlow-Hub Model ([`landmarks_classifier_asia_V1/1`](https://tfhub.dev/google/on_device_vision/classifier/landmarks_classifier_asia_V1/1)) for Landmark Classification
+- Supports roughly 98,961 landmark classes covering Asia’s most iconic sites.
 - This model was trained on [`Google Landmarks Dataset V2`](https://ai.googleblog.com/2019/05/announcing-google-landmarks-v2-improved.html). 
 
 ## Features
@@ -13,7 +14,7 @@
 
 ## Usage
 
-- Clone my repository.
+- Clone this repository.
 - Open CMD in working directory.
 - Run following command.
 
