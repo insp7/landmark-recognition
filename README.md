@@ -1,17 +1,17 @@
 # Landmark Recognition
 An end-to-end application to predict landmarks from images, retrieve geolocation details, and visualize results on an interactive map.
 
-## Model & Database Source
-- Leveraged a Pretrained TensorFlow-Hub Model ([`landmarks_classifier_asia_V1/1`](https://tfhub.dev/google/on_device_vision/classifier/landmarks_classifier_asia_V1/1)) for Landmark Classification
-- Supports roughly 98,961 landmark classes covering Asia’s most iconic sites.
-- This model was trained on [`Google Landmarks Dataset V2`](https://ai.googleblog.com/2019/05/announcing-google-landmarks-v2-improved.html). 
-
 ## Features
 - Simple repsonsive UI.
 - It will give you the full address of Landmark
 - It will provide you the `Latitude` & `Longitude` of predicted landmark.
 - It will plot the predicted landmark on the Map.
 
+## Model & Data Source
+- Leveraged a Pretrained TensorFlow-Hub Model ([`landmarks_classifier_asia_V1/1`](https://tfhub.dev/google/on_device_vision/classifier/landmarks_classifier_asia_V1/1)) for Landmark Classification
+- Supports roughly 98,961 landmark classes covering Asia’s most iconic sites.
+- This model was trained on [`Google Landmarks Dataset V2`](https://ai.googleblog.com/2019/05/announcing-google-landmarks-v2-improved.html).
+- 
 ## Usage
 
 - Clone this repository.
