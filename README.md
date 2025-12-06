@@ -1,5 +1,5 @@
 # Landmark Recognition
-An end-to-end application to predict landmarks from images, retrieve geolocation details, and visualize results on an interactive map.
+An end-to-end application to predict landmarks from images, retrieve geolocation details, and visualize results on an interactive map. Check Blog [here](https://medium.com/@konkaraniket/landmark-recognition-kaggle-challenge-2021-e3a679a8416f). 
 
 ## Features
 - Simple repsonsive UI.
